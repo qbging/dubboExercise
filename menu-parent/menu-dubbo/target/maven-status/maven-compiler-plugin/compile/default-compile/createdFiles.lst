@@ -1,0 +1,3 @@
+com\gqb\mapper\MenuMapper.class
+com\gqb\test\Test.class
+com\gqb\dubbo\service\impl\MenuDubboServiceImpl.class

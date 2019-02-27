@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="menu-dubbo" />
+        <module name="menu-management" />
+        <module name="menu-pojo" />
+        <module name="menu-service" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="menu-dubbo" target="1.5" />
+      <module name="menu-management" target="1.5" />
+      <module name="menu-parent" target="1.5" />
+      <module name="menu-pojo" target="1.5" />
+      <module name="menu-service" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

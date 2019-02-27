@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:dubbo="http://code.alibabatech.com/schema/dubbo"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+	http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context 
+		http://www.springframework.org/schema/context/spring-context.xsd
+		http://code.alibabatech.com/schema/dubbo 
+		http://code.alibabatech.com/schema/dubbo/dubbo.xsd">
+	<dubbo:application name="menu-service"/>
+	
+	<dubbo:registry address="192.168.175.129:2181" protocol="zookeeper"></dubbo:registry>
+	
+	<dubbo:protocol name="dubbo" port="20880"></dubbo:protocol>
+	
+	<dubbo:service interface="com.gqb.dubbo.service.MenuDubboService" ref="menuServiceImpl"></dubbo:service>
+	<bean id="menuServiceImpl" class="com.gqb.dubbo.service.impl.MenuDubboServiceImpl"></bean>
+	
+	<!-- 同时把spring配置文件也加载 -->
+	<import resource="../../applicationContext.xml"/>
+</beans>
+

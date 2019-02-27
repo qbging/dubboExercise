@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="menu-management:war">
+    <output-path>$PROJECT_DIR$/menu-management/target</output-path>
+    <root id="archive" name="menu-management-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="menu-management:war exploded" />
+    </root>
+  </artifact>
+</component>

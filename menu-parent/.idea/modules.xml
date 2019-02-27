@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/menu-dubbo/menu-dubbo.iml" filepath="$PROJECT_DIR$/menu-dubbo/menu-dubbo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/menu-management/menu-management.iml" filepath="$PROJECT_DIR$/menu-management/menu-management.iml" />
+      <module fileurl="file://$PROJECT_DIR$/menu-parent.iml" filepath="$PROJECT_DIR$/menu-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/menu-pojo/menu-pojo.iml" filepath="$PROJECT_DIR$/menu-pojo/menu-pojo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/menu-service/menu-service.iml" filepath="$PROJECT_DIR$/menu-service/menu-service.iml" />
+    </modules>
+  </component>
+</project>
